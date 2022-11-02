@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Karla', sans-serif;
+}
+
+.header {
+    height: 65px;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.header--icon {
+    height: 100%;
+    margin-right: 6px;
+}
+
+.header--title {
+    font-size: 1.25rem;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: -0.1em;
+}
